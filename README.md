@@ -67,18 +67,18 @@ ImageProcess.ipynb 圖像前處理的程式，建議再添加照片到originImag
 
 ![Lenna](./images/LennaAfterLSB.jpg)
 
-## message
+## PRDHHC
 
-隱藏訊息文本
+Biswapati Jana, Debasis Giri, Shyamal Kumar Mondal, Partial reversible data hiding scheme using (7, 4) hamming code, Multimed. Tools Appl. 76 (2017) 21691–21706
 
-這邊以NIU1112Cryptography及其填充文本為例
+該論文提出的方案
 
 | file | illustration |
 | :-- | :-- |
 | database | 隱藏好訊息的的圖像，數量為100 |
-| LSB.ipynb | 萊納圖測試 |
-| functuinalLSB.ipynb | 單一影像的加密以及多張圖片加密與分析 |
+| PRDHHC.ipynb | 萊納圖測試 |
+| PRDHHCfunctuinal.ipynb | 單一影像的加密以及多張圖片加密與分析 |
 | hxx.csv | 100張相對熵(KL散度)的數據紀錄 |
 | PSNR.csv | 100張PSNR的數據紀錄 |
 
-![Lenna](./images/LennaAfterLSB.jpg)
+![Lenna](./images/lennaGrayScaleCrop.jpg)
