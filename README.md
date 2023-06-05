@@ -31,6 +31,12 @@ ImageProcess.ipynb 圖像前處理的程式，建議再添加照片到originImag
 
 ![Lenna](./images/Lenna.jpeg)
 
+## message
+
+隱藏訊息文本
+
+這邊以NIU1112Cryptography及其填充文本為例
+
 ## Hamming74
 
 (7,4)Hamming Code的隱藏方法 
@@ -50,6 +56,22 @@ ImageProcess.ipynb 圖像前處理的程式，建議再添加照片到originImag
 ## LSB
 
 最低有效位元 Least Significant Bit, LSB的隱藏方法
+
+| file | illustration |
+| :-- | :-- |
+| database | 隱藏好訊息的的圖像，數量為100 |
+| LSB.ipynb | 萊納圖測試 |
+| functuinalLSB.ipynb | 單一影像的加密以及多張圖片加密與分析 |
+| hxx.csv | 100張相對熵(KL散度)的數據紀錄 |
+| PSNR.csv | 100張PSNR的數據紀錄 |
+
+![Lenna](./images/LennaAfterLSB.jpg)
+
+## message
+
+隱藏訊息文本
+
+這邊以NIU1112Cryptography及其填充文本為例
 
 | file | illustration |
 | :-- | :-- |
