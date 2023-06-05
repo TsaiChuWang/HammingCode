@@ -23,6 +23,14 @@ ImageData.txt 為紀錄影像名稱的文件
 
 ImageProcess.ipynb 圖像前處理的程式，建議再添加照片到originImage後全部執行一次
 
+## images
+
+存放萊納圖以及前處理圖像，另外有隱藏訊息後圖像
+
+原始萊納圖為
+
+![Lenna](./images/Lenna.jpeg)
+
 ## Hamming74
 
 (7,4)Hamming Code的隱藏方法 
@@ -36,3 +44,19 @@ ImageProcess.ipynb 圖像前處理的程式，建議再添加照片到originImag
 | Hamming74functional.ipynb | 單一影像的加密以及多張圖片加密與分析 |
 | hxx.csv | 100張相對熵(KL散度)的數據紀錄 |
 | PSNR.csv | 100張PSNR的數據紀錄 |
+
+![Lenna](./images/Lenna_Hamming74AfterHide.png)
+
+## LSB
+
+最低有效位元 Least Significant Bit, LSB的隱藏方法
+
+| file | illustration |
+| :-- | :-- |
+| database | 隱藏好訊息的的圖像，數量為100 |
+| LSB.ipynb | 萊納圖測試 |
+| functuinalLSB.ipynb | 單一影像的加密以及多張圖片加密與分析 |
+| hxx.csv | 100張相對熵(KL散度)的數據紀錄 |
+| PSNR.csv | 100張PSNR的數據紀錄 |
+
+![Lenna](./images/LennaAfterLSB.jpg)
