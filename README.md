@@ -82,3 +82,30 @@ Biswapati Jana, Debasis Giri, Shyamal Kumar Mondal, Partial reversible data hidi
 | PSNR.csv | 100張PSNR的數據紀錄 |
 
 ![Lenna](./images/lennaGrayScaleCrop.jpg)
+
+## Paper
+
+基於漢明碼之數位影像部分可逆式數據隱藏
+
+該論文提出的方案
+
+作者：彭俊淇 、李志泓 、洪集輝
+校院及系所：國立金門大學 電子工程學系
+發表於：
+第二十一屆離島資訊技術與應用研討會(21 th ITAOI)
+地點：Keelung Taiwan
+發表時間：Feb. 2022. 
+
+| file | illustration |
+| :-- | :-- |
+| database | 隱藏好訊息的的圖像，數量為100 |
+| Paper.ipynb | 萊納圖測試 |
+| Paperfunctuinal.ipynb | 單一影像的加密以及多張圖片加密與分析 |
+| hxx.csv | 100張相對熵(KL散度)的數據紀錄 |
+| PSNR.csv | 100張PSNR的數據紀錄 |
+
+![Lenna](./images/lennaGrayScaleCrop.jpg)
+
+## summary
+
+數據總分析的部分
